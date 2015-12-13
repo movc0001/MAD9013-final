@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+* {
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.wrapper {
+	width: 97%;
+	margin: auto;
+	background-color: #FDFBED;
+	max-width: 1024px;
+	font-family: 'Roboto Slab', Verdana, serif;
+	color: #5B422E;
+}
+
+.jumbotron {
+	padding: 2em 2em 1em 2em;
+}
+
+.lead {
+	text-align: right;
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding-right: 30px;
+}
+.bg-jumbo {
+	background: #F49A80;
+}
+
+.display-1 {
+	font-weight: 400;
+	font-size: 3.5rem;
+	color: #5B422E;
+	text-shadow: 2px 2px 2px #422d1c;
+}
+
+/*navbar*/
+.navbar {
+	background: #FCE6DA;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.navbar-brand{
+	padding-right: 5px;
+	border-right: 2px solid #FDFBED;
+}
+
+/*main page*/
+
+
+.content {
+	text-align: justify;
+	padding-bottom: 15px;
+	
+}
+
+.myphoto:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.dates{
+font-size: 1em;
+font-weight: 300;
+}
+/*Cards*/
+
+.card {
+	background: #FCE6DA;
+}
+
+.card-img-top {
+	width: 100%;
+	border-bottom: 3px solid #F49A80;
+}
+
+.card {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.card:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.card-deck-wrapper {
+	margin-bottom: 20px;
+}
+
+.btn {
+	background-color: #F49A80;
+	color: #5B422E;
+	font-weight: 600;
+}
+
+.btn:hover {
+	background-color: #B79082;
+	color: #FEF8D7;
+	font-weight: 600;
+}
+
+.card-title {
+	font-weight: 600;
+}
+
+.card-text {
+	text-align: justify;
+}
+
+
+/*Footer*/
+
+footer {
+	background: #8B827F;
+	color: #FCE6DA;
+	padding-left: 15px;
+	min-height: 75px;
+	margin-top: 55px;
+}
+
+footer i {
+	padding-top: 25px;
+}
+
+
+
+
+/*Form*/
+
+form {
+	padding: 20px 10px 20px 10px;
+	background: #FCE6DA;
+}
+
+label {
+	display: block;
+	padding-left: 10px;
+}
+
+
+/*Contacts*/
+
+.cell {
+	text-align: ;
+}
+
+a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+	color: #5B422E;
+}
+
+#inpicon {
+	display: block;
+	position: relative;
+}
+
+#inpicon input {
+	padding-left: 35px;
+}
+
+#inpicon i {
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	color: #999;
+	text-decoration: none;
+}
+
+input {}

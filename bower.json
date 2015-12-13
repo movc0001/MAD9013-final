@@ -1,0 +1,21 @@
+{
+  "name": "final",
+  "homepage": "https://github.com/movc0001/MAD9013-final",
+  "authors": [
+    "movc0001 <movc0001@algonquinlive.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha"
+  }
+}
