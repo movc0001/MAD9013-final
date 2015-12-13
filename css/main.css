@@ -26,6 +26,7 @@
 	font-weight: 600;
 	padding-right: 30px;
 }
+
 .bg-jumbo {
 	background: #F49A80;
 }
@@ -37,39 +38,52 @@
 	text-shadow: 2px 2px 2px #422d1c;
 }
 
+
 /*navbar*/
+
 .navbar {
 	background: #FCE6DA;
 	margin-bottom: 20px;
 	font-weight: 600;
 }
 
-.navbar-brand{
-	padding-right: 5px;
-	border-right: 2px solid #FDFBED;
+.navbar-brand {
+	padding-right: 15px;
+	border-right: 1px solid #DC8B74;
+	cursor: default;
 }
 
-/*main page*/
 
+/*main page*/
 
 .content {
 	text-align: justify;
 	padding-bottom: 15px;
-	
 }
-
+.myphoto{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
 .myphoto:hover {
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	transform: scale(1.2);
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
-.dates{
-font-size: 1em;
-font-weight: 300;
+.dates {
+	font-size: 1em;
+	font-weight: 300;
 }
+
+
 /*Cards*/
 
 .card {
@@ -138,8 +152,6 @@ footer {
 footer i {
 	padding-top: 25px;
 }
-
-
 
 
 /*Form*/
