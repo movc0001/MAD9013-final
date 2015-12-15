@@ -114,6 +114,11 @@
 	transition: all 0.3s;
 }
 
+
+.card-deck .card{
+	width:33%
+}
+
 .card-deck-wrapper {
 	margin-bottom: 20px;
 }
